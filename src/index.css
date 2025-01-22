@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+:root {
+  --overall-background: #f7f7f7;
+  --border-color: #dedede;
+  --btn-color: #9c88ff;
+  --income-color: #2ecc71;
+  --expense-color: #c0392b;
+  --delete-bg-color: #e74c3c;
+  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+#root{
+  background-color:var(--btn-color);
+}
